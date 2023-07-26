@@ -8,9 +8,8 @@
 ### Method 2
   - Download *工具名* by 
   ```sh
-  git clone https://github.com/ChangXulinmessi/gongjum
+  git clone https://github.com/ChangXulinmessi/工具名
   ```
-
 
   - Step 1. Download and install the anaconda platform.
   ```sh  
@@ -19,18 +18,19 @@
   
   - Step 2. Install tensorflow:
   ```sh  
-  Please refer to https://pytorch.org/get-started/locally/ for PyTorch installation.
+  Please refer to https://www.tensorflow.org/ for tensorflow installation.
   ```
   
-  - Step 3. Install lightgbm, xgboost and qdarkstyle:
+  - Step 3. Install python packages:
   ```sh
-  pip3 install lightgbm
-  pip3 install xgboost
-  pip3 install qdarkstyle  
+  pip3 install tensorflow
+  pip3 install PyQt5
+  pip3 install Bio
+ 
   ```
   
-  - Step 4. run iLearnPlus:
-  cd to the *iLearnPlus* folder which contains iLearnPlus.py and run the ‘iLearnPlus.py’ script as follows:
+  - Step 4. run 工具名:
+  cd to the *工具名* folder which contains DTL-RespLys.py and run the ‘ DTL-RespLys.py’ script as follows:
   ```sh
-  python iLearnPlus.py
+  python  DTL-RespLys.py
   ```
